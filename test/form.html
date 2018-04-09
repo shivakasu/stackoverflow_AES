@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.4.1/dist/paper.min.css">
+  <link rel="stylesheet" href="grader.css">
+  <title>Question Grader</title>
+</head>
+<body>
+  <div>
+  	<div class="margin"></div>
+  	<div class="row flex-left"><button class="sm-1 col btn-block" id="back"><</button></div>
+    <h2 class="row flex-center">Enter your question in four parts</h2>
+    <div class="sm-3 col margin"></div>
+    <form class="container" action="1.py" method="get" onSubmit="fun1();return false;">
+	    <div class="row flex-center">
+	      <span class="badge sm-2 col">Title</span>
+		  <input type="text" placeholder="Question Title" id="paperInputs2" class="sm-8 col">
+		</div>
+		<div class="row flex-center">
+	      <span class="badge sm-2 col">Content</span>
+		  <textarea placeholder="Question Content" class="sm-8 col text"></textarea>
+		</div>
+		<div class="row flex-center">
+	      <span class="badge sm-2 col">Code</span>
+		  <textarea placeholder="Question Code" class="sm-8 col text"></textarea>
+		</div>
+		<div class="row flex-left" id="taglist">
+		  <div class="sm-1 col"></div>
+	      <span class="badge sm-2 col">Tags</span>
+		  <input placeholder="Question Tags" type="text" id="tagin" class="sm-8 col">
+		</div>
+	</form>
+	<div class="row flex-center">
+		<button class="sm-1 col btn-block" id="go">Go!</button>
+		<div class="sm-1 col"></div>
+		<button class="sm-1 col btn-block" id="clear">Clear</button>
+	</div>
+	
+  </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src='js/autosize.js'></script>
+<script src="js/grader.js"></script>
+</html>

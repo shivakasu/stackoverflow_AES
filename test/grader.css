@@ -1,0 +1,26 @@
+.badge{
+	font-family: "Patrick Hand SC",sans-serif;
+	font-size: 170%;
+	line-height: 200%;
+}
+
+.alert{
+	font-family: "Patrick Hand SC",sans-serif;
+	font-size: 170%;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.card-text{
+	font-size: 150%;
+}
+
+.oritag{
+	font-size: 130%;
+	line-height: 100%;
+	margin-right: 2%;
+}
+
+[popover-top]{
+	margin: 0;
+}

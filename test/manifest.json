@@ -1,0 +1,17 @@
+{
+  "name": "Stack Overflow Question Grader",
+  "description": "Analyze question quality",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Stack Overflow Question Grader"
+  },
+  "background": {
+      "persistent": false,
+      "scripts": [ "grader.js" ]
+  },
+  "icons": {
+    "16": "images/stack.png",
+    "128": "images/stack.png"
+  }
+}

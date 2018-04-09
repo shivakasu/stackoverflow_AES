@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.4.1/dist/paper.min.css">
+  <link rel="stylesheet" href="grader.css">
+  <title>Question Grader</title>
+</head>
+<body>
+  <div class="margin"></div>
+  <div class="row flex-center">
+    <div class="card sm-5">
+      <div class="card-header">原始问题</div>
+      <div class="card-body">
+        <h3 class="card-title" id="ori-title"></h3>
+        <p class="card-text" id="ori-content"></p>
+      </div>
+    </div>
+    <div class="sm-1 col"></div>
+    <div class="card sm-5">
+      <div class="card-header">分析结果</div>
+      <div class="card-body">
+        <h3 class="card-title" id="res-title"></h3>
+        <p class="card-text" id="res-content"></p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/show.js"></script>
+</html>
